@@ -1,0 +1,22 @@
+# Ignoriranje svih `node_modules` direktorija u projektu
+**/node_modules
+
+# Ignoriranje .env datoteka
+**/.env
+*.env
+
+# Ignoriranje build i dist datoteka
+**/dist
+**/build
+
+# Ignoriranje lokalnih postavki i cache datoteka
+**/.DS_Store
+**/.vscode
+**/.idea
+**/.cache
+**/logs
+**/*.log
+
+# Ignoriranje datoteka generiranih od sustava (ako koristiš macOS ili Windows)
+Thumbs.db
+.DS_Store
